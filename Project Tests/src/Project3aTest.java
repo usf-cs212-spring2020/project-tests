@@ -1,8 +1,13 @@
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import java.nio.file.Path;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.MethodOrderer.Alphanumeric;
+import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
 /**
@@ -33,7 +38,7 @@ public class Project3aTest {
 	}
 
 	/*
-	 * Make sure project 1 tests still pass.
+	 * Make sure project 1 and 2 tests still pass.
 	 */
 
 	/**
@@ -41,8 +46,60 @@ public class Project3aTest {
 	 * @see IndexOutputTest
 	 */
 	@Nested
-	public class A_IndexOutput extends IndexOutputTest {
+	@TestMethodOrder(OrderAnnotation.class)
+	public class A_SingleThread {
 
+		/**
+		 * Tests the word counts functionality of the inverted index on the entire
+		 * input directory.
+		 */
+		@Order(1)
+		@Test
+		public void testCounts() {
+			String filename = "counts.json";
+
+			Path actual = TestUtilities.ACTUAL_PATH.resolve(filename);
+			Path expected = TestUtilities.EXPECTED_PATH.resolve(filename);
+
+			String[] args = {
+					"-path", TestUtilities.TEXT_INPUT.normalize().toString(),
+					"-counts", actual.normalize().toString()
+			};
+
+			TestUtilities.checkOutput(args, actual, expected);
+		}
+
+		/**
+		 * Tests the index output for all of the text files.
+		 */
+		@Order(2)
+		@Test
+		public void testBuildText() {
+			Path input = TestUtilities.TEXT_INPUT;
+			IndexOutputTest.test(".", input);
+		}
+
+		/**
+		 * Tests the exact search result output for the text subdirectory.
+		 */
+		@Order(3)
+		@Test
+		public void testSearchExact() {
+			Path input = TestUtilities.TEXT_INPUT;
+			String query = "complex.txt";
+			SearchOutputTest.test("search-exact", input, query, true);
+		}
+
+		/**
+		 * Tests the exact search result output for the text subdirectory.
+		 */
+		@Order(4)
+		@Test
+		public void testSearchPartial() {
+			Path input = TestUtilities.TEXT_INPUT;
+			String query = "complex.txt";
+			SearchOutputTest.test("search-partial", input, query, false);
+		}
 	}
 
 	/**
@@ -54,25 +111,12 @@ public class Project3aTest {
 
 	}
 
-	/*
-	 * Make sure project 2 tests still pass
-	 */
-
-	/**
-	 * Includes all of the tests from the extended class.
-	 * @see SearchOutputTest
-	 */
-	@Nested
-	public class C_SearchOutput extends SearchOutputTest {
-
-	}
-
 	/**
 	 * Includes all of the tests from the extended class.
 	 * @see SearchExceptionsTest
 	 */
 	@Nested
-	public class D_SearchExceptions extends SearchExceptionsTest {
+	public class C_SearchExceptions extends SearchExceptionsTest {
 
 	}
 
@@ -85,7 +129,7 @@ public class Project3aTest {
 	 * @see ThreadOutputTest
 	 */
 	@Nested
-	public class E_ThreadOutput extends ThreadOutputTest {
+	public class D_ThreadOutput extends ThreadOutputTest {
 
 	}
 
@@ -94,7 +138,7 @@ public class Project3aTest {
 	 * @see ThreadExceptionsTest
 	 */
 	@Nested
-	public class F_ThreadExceptions extends ThreadExceptionsTest {
+	public class E_ThreadExceptions extends ThreadExceptionsTest {
 
 	}
 }

@@ -91,7 +91,7 @@ public class ThreadExceptionsTest {
 	@Test
 	public void testNoOutputBuild() {
 		String path = Path.of("text").toString();
-		String[] args = { "-path", path, "-threads", String.valueOf(5) };
+		String[] args = { "-path", path, "-threads", String.valueOf(3) };
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args));
 	}
 
@@ -103,7 +103,7 @@ public class ThreadExceptionsTest {
 	public void testNoOutputSearch() {
 		String path = Path.of("text").toString();
 		String query = Path.of("query", "complex.txt").toString();
-		String[] args = { "-path", path, "-query", query, "-threads", String.valueOf(5) };
+		String[] args = { "-path", path, "-query", query, "-threads", String.valueOf(3) };
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args));
 	}
 }
