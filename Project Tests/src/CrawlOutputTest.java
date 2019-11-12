@@ -245,6 +245,16 @@ public class CrawlOutputTest {
 		 */
 		@Test
 		@Order(8)
+		public void testJavaAbout() {
+			String link = "https://www.cs.usfca.edu/~cs212/docs/jdk-12.0.2_doc-all/api/java.desktop/java/awt/desktop/AboutHandler.html";
+			test(link, 1);
+		}
+
+		/**
+		 * Tests the inverted index for the given link and limit.
+		 */
+		@Test
+		@Order(9)
 		public void testJava() {
 			String link = "https://www.cs.usfca.edu/~cs212/docs/jdk-12.0.2_doc-all/api/allclasses-index.html";
 			test(link, 50);
