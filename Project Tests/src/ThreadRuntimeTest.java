@@ -98,19 +98,20 @@ public class ThreadRuntimeTest {
 		String[] args1 = { "-path", path, "-threads", String.valueOf(1) };
 		String[] args2 = { "-path", path, "-threads", String.valueOf(THREADS) };
 
+		System.out.println();
+		System.out.printf("### Testing Build 1 vs %d Workers...%n", THREADS);
+
 		// make sure code runs without exceptions before testing
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args1));
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args2));
 
 		// then test the timing
 		assertTimeoutPreemptively(LONG_TIMEOUT, () -> {
-			System.out.println();
-			System.out.println("Testing Build 1 vs 5 Workers...");
-			double result = compare("1 Worker", args1, "5 Workers", args2);
+			double result = compare("1 Worker", args1, String.valueOf(THREADS) + " Workers", args2);
 
 			assertTrue(result > 0, () -> String.format(
-					"%s is %.2f seconds faster than %s.", "1 worker",
-					-result, "5 workers"));
+					"%s is %.2f seconds faster than %d workers.", "1 worker",
+					-result, THREADS));
 		});
 	}
 
@@ -127,20 +128,21 @@ public class ThreadRuntimeTest {
 		String[] args1 = { "-path", path, "-query", query, "-threads", String.valueOf(1) };
 		String[] args2 = { "-path", path, "-query", query, "-threads", String.valueOf(THREADS) };
 
+		System.out.println();
+		System.out.printf("### Testing Search 1 vs %d Workers...%n", THREADS);
+
 		// make sure code runs without exceptions before testing
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args1));
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args2));
 
 		// then test the timing
 		assertTimeoutPreemptively(LONG_TIMEOUT, () -> {
-			System.out.println();
-			System.out.println("Testing Search 1 vs 5 Workers...");
-			double result = compare("1 Worker", args1, "5 Workers", args2);
+			double result = compare("1 Worker", args1, String.valueOf(THREADS) + " Workers", args2);
 
 			assertTrue(result > 0, () -> String.format(
-					"%s is %.2f seconds faster than %s.", "1 worker",
-					-result, "5 workers"));
-		});
+					"%s is %.2f seconds faster than %d workers.", "1 worker",
+					-result, THREADS));
+			});
 	}
 
 	/**
@@ -155,20 +157,21 @@ public class ThreadRuntimeTest {
 		String[] args1 = { "-path", path };
 		String[] args2 = { "-path", path, "-threads", String.valueOf(THREADS) };
 
+		System.out.println();
+		System.out.printf("### Testing Build Single vs Multi...%n", THREADS);
+
 		// make sure code runs without exceptions before testing
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args1));
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args2));
 
 		// then test the timing
 		assertTimeoutPreemptively(LONG_TIMEOUT, () -> {
-			System.out.println();
-			System.out.println("Testing Build Single vs Multi...");
-			double result = compare("1 Worker", args1, "5 Workers", args2);
+			double result = compare("Single", args1, String.valueOf(THREADS) + " Workers", args2);
 
 			assertTrue(result > 0, () -> String.format(
-					"%s is %.2f seconds faster than %s.", "1 worker",
-					-result, "5 workers"));
-		});
+					"%s is %.2f seconds faster than %d workers.", "0 workers",
+					-result, THREADS));
+			});
 	}
 
 	/**
@@ -184,19 +187,20 @@ public class ThreadRuntimeTest {
 		String[] args1 = { "-path", path, "-query", query };
 		String[] args2 = { "-path", path, "-query", query, "-threads", String.valueOf(THREADS) };
 
+		System.out.println();
+		System.out.printf("### Testing Search Single vs Multi...%n", THREADS);
+
 		// make sure code runs without exceptions before testing
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args1));
 		assertTimeoutPreemptively(TIMEOUT, () -> TestUtilities.checkExceptions(args2));
 
 		// then test the timing
 		assertTimeoutPreemptively(LONG_TIMEOUT, () -> {
-			System.out.println();
-			System.out.println("Testing Search Single vs Multi...");
-			double result = compare("1 Worker", args1, "5 Workers", args2);
+			double result = compare("Single", args1, String.valueOf(THREADS) + " Workers", args2);
 
 			assertTrue(result > 0, () -> String.format(
-					"%s is %.2f seconds faster than %s.", "1 worker",
-					-result, "5 workers"));
+					"%s is %.2f seconds faster than %d workers.", "0 workers",
+					-result, THREADS));
 		});
 	}
 
@@ -217,9 +221,10 @@ public class ThreadRuntimeTest {
 		long total1 = 0;
 		long total2 = 0;
 
-		String labelFormat = "%n%-6s    %10s    %10s%n";
+		String labelFormat = "%-6s    %10s    %10s%n";
 		String valueFormat = "%-6d    %10.6f    %10.6f%n";
 
+		System.out.printf("%n```%n");
 		System.out.printf(labelFormat, "Warmup", label1, label2);
 		for (int i = 0; i < WARM_RUNS; i++) {
 			System.out.printf(valueFormat, i + 1,
@@ -227,6 +232,7 @@ public class ThreadRuntimeTest {
 					(double) runs2[i] / Duration.ofSeconds(1).toMillis());
 		}
 
+		System.out.println();
 		System.out.printf(labelFormat, "Timed", label1, label2);
 		for (int i = WARM_RUNS; i < WARM_RUNS + TIME_RUNS; i++) {
 			total1 += runs1[i];
@@ -239,9 +245,11 @@ public class ThreadRuntimeTest {
 		double average1 = (double) total1 / TIME_RUNS;
 		double average2 = (double) total2 / TIME_RUNS;
 
+		System.out.println();
 		System.out.printf("%10s:  %10.6f seconds%n", label1, average1 / Duration.ofSeconds(1).toMillis());
 		System.out.printf("%10s:  %10.6f seconds%n%n", label2, average2 / Duration.ofSeconds(1).toMillis());
-		System.out.printf("%10s: x%10.6f %n%n", "Speedup", average1 / average2);
+		System.out.printf("%10s: x%10.6f %n", "Speedup", average1 / average2);
+		System.out.printf("```%n%n");
 
 		return average1 - average2;
 	}
