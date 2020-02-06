@@ -1,0 +1,1736 @@
+{
+  "a": {
+    "input/text/stemmer/stop.txt": [
+      19,
+      261,
+      270,
+      383
+    ]
+  },
+  "about": {
+    "input/text/stemmer/stop.txt": [
+      414
+    ]
+  },
+  "abov": {
+    "input/text/stemmer/stop.txt": [
+      422
+    ]
+  },
+  "adject": {
+    "input/text/stemmer/stop.txt": [
+      52,
+      99,
+      118,
+      137,
+      148,
+      160,
+      172
+    ]
+  },
+  "adverb": {
+    "input/text/stemmer/stop.txt": [
+      392
+    ]
+  },
+  "after": {
+    "input/text/stemmer/stop.txt": [
+      421
+    ]
+  },
+  "again": {
+    "input/text/stemmer/stop.txt": [
+      434
+    ]
+  },
+  "against": {
+    "input/text/stemmer/stop.txt": [
+      415
+    ]
+  },
+  "all": {
+    "input/text/stemmer/stop.txt": [
+      279,
+      444
+    ]
+  },
+  "also": {
+    "input/text/stemmer/stop.txt": [
+      488
+    ]
+  },
+  "alway": {
+    "input/text/stemmer/stop.txt": [
+      42
+    ]
+  },
+  "am": {
+    "input/text/stemmer/stop.txt": [
+      197
+    ]
+  },
+  "among": {
+    "input/text/stemmer/stop.txt": [
+      389,
+      472
+    ]
+  },
+  "an": {
+    "input/text/stemmer/stop.txt": [
+      1,
+      384
+    ]
+  },
+  "and": {
+    "input/text/stemmer/stop.txt": [
+      114,
+      138,
+      146,
+      156,
+      401
+    ]
+  },
+  "ani": {
+    "input/text/stemmer/stop.txt": [
+      445
+    ]
+  },
+  "anoth": {
+    "input/text/stemmer/stop.txt": [
+      507
+    ]
+  },
+  "archaic": {
+    "input/text/stemmer/stop.txt": [
+      107
+    ]
+  },
+  "are": {
+    "input/text/stemmer/stop.txt": [
+      26,
+      207,
+      248,
+      471
+    ]
+  },
+  "arent": {
+    "input/text/stemmer/stop.txt": [
+      343
+    ]
+  },
+  "articl": {
+    "input/text/stemmer/stop.txt": [
+      382
+    ]
+  },
+  "as": {
+    "input/text/stemmer/stop.txt": [
+      406
+    ]
+  },
+  "at": {
+    "input/text/stemmer/stop.txt": [
+      15,
+      410
+    ]
+  },
+  "auxiliari": {
+    "input/text/stemmer/stop.txt": [
+      290,
+      352
+    ]
+  },
+  "back": {
+    "input/text/stemmer/stop.txt": [
+      501
+    ]
+  },
+  "bar": {
+    "input/text/stemmer/stop.txt": [
+      10
+    ]
+  },
+  "be": {
+    "input/text/stemmer/stop.txt": [
+      196,
+      215,
+      220,
+      288
+    ]
+  },
+  "becaus": {
+    "input/text/stemmer/stop.txt": [
+      60,
+      80,
+      253,
+      405
+    ]
+  },
+  "been": {
+    "input/text/stemmer/stop.txt": [
+      217
+    ]
+  },
+  "befor": {
+    "input/text/stemmer/stop.txt": [
+      420
+    ]
+  },
+  "begin": {
+    "input/text/stemmer/stop.txt": [
+      7
+    ]
+  },
+  "believ": {
+    "input/text/stemmer/stop.txt": [
+      250
+    ]
+  },
+  "below": {
+    "input/text/stemmer/stop.txt": [
+      25,
+      247,
+      423
+    ]
+  },
+  "best": {
+    "input/text/stemmer/stop.txt": [
+      58,
+      251
+    ]
+  },
+  "between": {
+    "input/text/stemmer/stop.txt": [
+      416
+    ]
+  },
+  "both": {
+    "input/text/stemmer/stop.txt": [
+      446
+    ]
+  },
+  "but": {
+    "input/text/stemmer/stop.txt": [
+      31,
+      402
+    ]
+  },
+  "by": {
+    "input/text/stemmer/stop.txt": [
+      411
+    ]
+  },
+  "can": {
+    "input/text/stemmer/stop.txt": [
+      265,
+      297,
+      298
+    ]
+  },
+  "cannot": {
+    "input/text/stemmer/stop.txt": [
+      359
+    ]
+  },
+  "cant": {
+    "input/text/stemmer/stop.txt": [
+      358
+    ]
+  },
+  "care": {
+    "input/text/stemmer/stop.txt": [
+      76
+    ]
+  },
+  "case": {
+    "input/text/stemmer/stop.txt": [
+      45,
+      96
+    ]
+  },
+  "classif": {
+    "input/text/stemmer/stop.txt": [
+      398
+    ]
+  },
+  "coalmin": {
+    "input/text/stemmer/stop.txt": [
+      65
+    ]
+  },
+  "comment": {
+    "input/text/stemmer/stop.txt": [
+      6
+    ]
+  },
+  "commonest": {
+    "input/text/stemmer/stop.txt": [
+      474
+    ]
+  },
+  "complet": {
+    "input/text/stemmer/stop.txt": [
+      34
+    ]
+  },
+  "compound": {
+    "input/text/stemmer/stop.txt": [
+      307
+    ]
+  },
+  "conjunct": {
+    "input/text/stemmer/stop.txt": [
+      391
+    ]
+  },
+  "could": {
+    "input/text/stemmer/stop.txt": [
+      283,
+      299
+    ]
+  },
+  "couldnt": {
+    "input/text/stemmer/stop.txt": [
+      360
+    ]
+  },
+  "cours": {
+    "input/text/stemmer/stop.txt": [
+      47
+    ]
+  },
+  "darent": {
+    "input/text/stemmer/stop.txt": [
+      376
+    ]
+  },
+  "demonstr": {
+    "input/text/stemmer/stop.txt": [
+      180
+    ]
+  },
+  "did": {
+    "input/text/stemmer/stop.txt": [
+      240
+    ]
+  },
+  "didnt": {
+    "input/text/stemmer/stop.txt": [
+      351
+    ]
+  },
+  "do": {
+    "input/text/stemmer/stop.txt": [
+      234,
+      235,
+      242
+    ]
+  },
+  "doe": {
+    "input/text/stemmer/stop.txt": [
+      237
+    ]
+  },
+  "doesnt": {
+    "input/text/stemmer/stop.txt": [
+      349
+    ]
+  },
+  "dont": {
+    "input/text/stemmer/stop.txt": [
+      350
+    ]
+  },
+  "doubt": {
+    "input/text/stemmer/stop.txt": [
+      378
+    ]
+  },
+  "down": {
+    "input/text/stemmer/stop.txt": [
+      427
+    ]
+  },
+  "dure": {
+    "input/text/stemmer/stop.txt": [
+      419
+    ]
+  },
+  "each": {
+    "input/text/stemmer/stop.txt": [
+      11,
+      447
+    ]
+  },
+  "eg": {
+    "input/text/stemmer/stop.txt": [
+      29
+    ]
+  },
+  "encount": {
+    "input/text/stemmer/stop.txt": [
+      310
+    ]
+  },
+  "english": {
+    "input/text/stemmer/stop.txt": [
+      2,
+      476
+    ]
+  },
+  "etc": {
+    "input/text/stemmer/stop.txt": [
+      66,
+      393
+    ]
+  },
+  "even": {
+    "input/text/stemmer/stop.txt": [
+      502
+    ]
+  },
+  "ever": {
+    "input/text/stemmer/stop.txt": [
+      483
+    ]
+  },
+  "everi": {
+    "input/text/stemmer/stop.txt": [
+      478
+    ]
+  },
+  "few": {
+    "input/text/stemmer/stop.txt": [
+      448
+    ]
+  },
+  "fight": {
+    "input/text/stemmer/stop.txt": [
+      274,
+      277
+    ]
+  },
+  "first": {
+    "input/text/stemmer/stop.txt": [
+      513
+    ]
+  },
+  "five": {
+    "input/text/stemmer/stop.txt": [
+      512
+    ]
+  },
+  "follow": {
+    "input/text/stemmer/stop.txt": [
+      469
+    ]
+  },
+  "for": {
+    "input/text/stemmer/stop.txt": [
+      33,
+      412,
+      465
+    ]
+  },
+  "form": {
+    "input/text/stemmer/stop.txt": [
+      24,
+      36,
+      109,
+      179,
+      191,
+      203,
+      222,
+      228,
+      233,
+      239,
+      244,
+      246,
+      258,
+      308,
+      363,
+      375,
+      379
+    ]
+  },
+  "formal": {
+    "input/text/stemmer/stop.txt": [
+      313
+    ]
+  },
+  "four": {
+    "input/text/stemmer/stop.txt": [
+      511
+    ]
+  },
+  "fr": {
+    "input/text/stemmer/stop.txt": [
+      193
+    ]
+  },
+  "from": {
+    "input/text/stemmer/stop.txt": [
+      425
+    ]
+  },
+  "further": {
+    "input/text/stemmer/stop.txt": [
+      435
+    ]
+  },
+  "get": {
+    "input/text/stemmer/stop.txt": [
+      489
+    ]
+  },
+  "go": {
+    "input/text/stemmer/stop.txt": [
+      490
+    ]
+  },
+  "goe": {
+    "input/text/stemmer/stop.txt": [
+      491
+    ]
+  },
+  "good": {
+    "input/text/stemmer/stop.txt": [
+      276
+    ]
+  },
+  "had": {
+    "input/text/stemmer/stop.txt": [
+      229
+    ]
+  },
+  "hadnt": {
+    "input/text/stemmer/stop.txt": [
+      348
+    ]
+  },
+  "has": {
+    "input/text/stemmer/stop.txt": [
+      226
+    ]
+  },
+  "hasnt": {
+    "input/text/stemmer/stop.txt": [
+      346
+    ]
+  },
+  "have": {
+    "input/text/stemmer/stop.txt": [
+      223,
+      224,
+      231
+    ]
+  },
+  "havent": {
+    "input/text/stemmer/stop.txt": [
+      347
+    ]
+  },
+  "he": {
+    "input/text/stemmer/stop.txt": [
+      131,
+      259
+    ]
+  },
+  "hed": {
+    "input/text/stemmer/stop.txt": [
+      330
+    ]
+  },
+  "hell": {
+    "input/text/stemmer/stop.txt": [
+      336
+    ]
+  },
+  "her": {
+    "input/text/stemmer/stop.txt": [
+      144,
+      149
+    ]
+  },
+  "here": {
+    "input/text/stemmer/stop.txt": [
+      79,
+      368,
+      438
+    ]
+  },
+  "herself": {
+    "input/text/stemmer/stop.txt": [
+      152
+    ]
+  },
+  "hes": {
+    "input/text/stemmer/stop.txt": [
+      319
+    ]
+  },
+  "high": {
+    "input/text/stemmer/stop.txt": [
+      396,
+      517
+    ]
+  },
+  "him": {
+    "input/text/stemmer/stop.txt": [
+      133
+    ]
+  },
+  "himself": {
+    "input/text/stemmer/stop.txt": [
+      140
+    ]
+  },
+  "his": {
+    "input/text/stemmer/stop.txt": [
+      135
+    ]
+  },
+  "homonym": {
+    "input/text/stemmer/stop.txt": [
+      257
+    ]
+  },
+  "how": {
+    "input/text/stemmer/stop.txt": [
+      373,
+      443
+    ]
+  },
+  "howev": {
+    "input/text/stemmer/stop.txt": [
+      287,
+      508
+    ]
+  },
+  "i": {
+    "input/text/stemmer/stop.txt": [
+      40,
+      249
+    ]
+  },
+  "id": {
+    "input/text/stemmer/stop.txt": [
+      328
+    ]
+  },
+  "if": {
+    "input/text/stemmer/stop.txt": [
+      91,
+      403
+    ]
+  },
+  "ill": {
+    "input/text/stemmer/stop.txt": [
+      334
+    ]
+  },
+  "im": {
+    "input/text/stemmer/stop.txt": [
+      317
+    ]
+  },
+  "in": {
+    "input/text/stemmer/stop.txt": [
+      43,
+      94,
+      312,
+      428,
+      475
+    ]
+  },
+  "includ": {
+    "input/text/stemmer/stop.txt": [
+      32,
+      111,
+      289
+    ]
+  },
+  "increas": {
+    "input/text/stemmer/stop.txt": [
+      309
+    ]
+  },
+  "infinit": {
+    "input/text/stemmer/stop.txt": [
+      216
+    ]
+  },
+  "ing": {
+    "input/text/stemmer/stop.txt": [
+      221,
+      232,
+      243
+    ]
+  },
+  "interrog": {
+    "input/text/stemmer/stop.txt": [
+      181
+    ]
+  },
+  "into": {
+    "input/text/stemmer/stop.txt": [
+      417
+    ]
+  },
+  "is": {
+    "input/text/stemmer/stop.txt": [
+      14,
+      57,
+      77,
+      85,
+      93,
+      201,
+      394,
+      399
+    ]
+  },
+  "isnt": {
+    "input/text/stemmer/stop.txt": [
+      342
+    ]
+  },
+  "it": {
+    "input/text/stemmer/stop.txt": [
+      84,
+      90,
+      92,
+      154,
+      158,
+      321
+    ]
+  },
+  "itself": {
+    "input/text/stemmer/stop.txt": [
+      161
+    ]
+  },
+  "ive": {
+    "input/text/stemmer/stop.txt": [
+      324
+    ]
+  },
+  "just": {
+    "input/text/stemmer/stop.txt": [
+      464,
+      492
+    ]
+  },
+  "least": {
+    "input/text/stemmer/stop.txt": [
+      479
+    ]
+  },
+  "less": {
+    "input/text/stemmer/stop.txt": [
+      480
+    ]
+  },
+  "let": {
+    "input/text/stemmer/stop.txt": [
+      364
+    ]
+  },
+  "like": {
+    "input/text/stemmer/stop.txt": [
+      499
+    ]
+  },
+  "line": {
+    "input/text/stemmer/stop.txt": [
+      20
+    ]
+  },
+  "list": {
+    "input/text/stemmer/stop.txt": [
+      5
+    ]
+  },
+  "long": {
+    "input/text/stemmer/stop.txt": [
+      518
+    ]
+  },
+  "lower": {
+    "input/text/stemmer/stop.txt": [
+      95
+    ]
+  },
+  "made": {
+    "input/text/stemmer/stop.txt": [
+      260,
+      493
+    ]
+  },
+  "make": {
+    "input/text/stemmer/stop.txt": [
+      494
+    ]
+  },
+  "mani": {
+    "input/text/stemmer/stop.txt": [
+      21,
+      481
+    ]
+  },
+  "may": {
+    "input/text/stemmer/stop.txt": [
+      269,
+      300,
+      301
+    ]
+  },
+  "me": {
+    "input/text/stemmer/stop.txt": [
+      48
+    ]
+  },
+  "merri": {
+    "input/text/stemmer/stop.txt": [
+      266
+    ]
+  },
+  "might": {
+    "input/text/stemmer/stop.txt": [
+      281,
+      286,
+      302
+    ]
+  },
+  "mightnt": {
+    "input/text/stemmer/stop.txt": [
+      381
+    ]
+  },
+  "mine": {
+    "input/text/stemmer/stop.txt": [
+      56
+    ]
+  },
+  "miscellan": {
+    "input/text/stemmer/stop.txt": [
+      362
+    ]
+  },
+  "month": {
+    "input/text/stemmer/stop.txt": [
+      267
+    ]
+  },
+  "more": {
+    "input/text/stemmer/stop.txt": [
+      449
+    ]
+  },
+  "most": {
+    "input/text/stemmer/stop.txt": [
+      450
+    ]
+  },
+  "must": {
+    "input/text/stemmer/stop.txt": [
+      273,
+      303,
+      304
+    ]
+  },
+  "mustnt": {
+    "input/text/stemmer/stop.txt": [
+      361
+    ]
+  },
+  "my": {
+    "input/text/stemmer/stop.txt": [
+      50
+    ]
+  },
+  "myself": {
+    "input/text/stemmer/stop.txt": [
+      67
+    ]
+  },
+  "neednt": {
+    "input/text/stemmer/stop.txt": [
+      377
+    ]
+  },
+  "negat": {
+    "input/text/stemmer/stop.txt": [
+      341,
+      353
+    ]
+  },
+  "never": {
+    "input/text/stemmer/stop.txt": [
+      484
+    ]
+  },
+  "new": {
+    "input/text/stemmer/stop.txt": [
+      515
+    ]
+  },
+  "no": {
+    "input/text/stemmer/stop.txt": [
+      454
+    ]
+  },
+  "nomenclatur": {
+    "input/text/stemmer/stop.txt": [
+      195
+    ]
+  },
+  "nor": {
+    "input/text/stemmer/stop.txt": [
+      455
+    ]
+  },
+  "not": {
+    "input/text/stemmer/stop.txt": [
+      110,
+      456
+    ]
+  },
+  "now": {
+    "input/text/stemmer/stop.txt": [
+      482
+    ]
+  },
+  "nowaday": {
+    "input/text/stemmer/stop.txt": [
+      311
+    ]
+  },
+  "object": {
+    "input/text/stemmer/stop.txt": [
+      49,
+      75,
+      115,
+      134,
+      145,
+      157,
+      169
+    ]
+  },
+  "of": {
+    "input/text/stemmer/stop.txt": [
+      18,
+      22,
+      46,
+      61,
+      64,
+      254,
+      268,
+      272,
+      409
+    ]
+  },
+  "off": {
+    "input/text/stemmer/stop.txt": [
+      431
+    ]
+  },
+  "old": {
+    "input/text/stemmer/stop.txt": [
+      263,
+      516
+    ]
+  },
+  "omit": {
+    "input/text/stemmer/stop.txt": [
+      252
+    ]
+  },
+  "on": {
+    "input/text/stemmer/stop.txt": [
+      430
+    ]
+  },
+  "onc": {
+    "input/text/stemmer/stop.txt": [
+      437
+    ]
+  },
+  "one": {
+    "input/text/stemmer/stop.txt": [
+      477
+    ]
+  },
+  "onli": {
+    "input/text/stemmer/stop.txt": [
+      457
+    ]
+  },
+  "or": {
+    "input/text/stemmer/stop.txt": [
+      404
+    ]
+  },
+  "other": {
+    "input/text/stemmer/stop.txt": [
+      178,
+      451
+    ]
+  },
+  "ought": {
+    "input/text/stemmer/stop.txt": [
+      285,
+      305,
+      306
+    ]
+  },
+  "oughtnt": {
+    "input/text/stemmer/stop.txt": [
+      380
+    ]
+  },
+  "our": {
+    "input/text/stemmer/stop.txt": [
+      97,
+      100
+    ]
+  },
+  "ourselv": {
+    "input/text/stemmer/stop.txt": [
+      103
+    ]
+  },
+  "out": {
+    "input/text/stemmer/stop.txt": [
+      429
+    ]
+  },
+  "over": {
+    "input/text/stemmer/stop.txt": [
+      432
+    ]
+  },
+  "overlap": {
+    "input/text/stemmer/stop.txt": [
+      388
+    ]
+  },
+  "own": {
+    "input/text/stemmer/stop.txt": [
+      458
+    ]
+  },
+  "palmer": {
+    "input/text/stemmer/stop.txt": [
+      194
+    ]
+  },
+  "participl": {
+    "input/text/stemmer/stop.txt": [
+      219
+    ]
+  },
+  "past": {
+    "input/text/stemmer/stop.txt": [
+      212,
+      214,
+      218,
+      230,
+      241
+    ]
+  },
+  "person": {
+    "input/text/stemmer/stop.txt": [
+      38,
+      70,
+      106,
+      129,
+      164,
+      199,
+      205,
+      211
+    ]
+  },
+  "plural": {
+    "input/text/stemmer/stop.txt": [
+      71,
+      127,
+      165
+    ]
+  },
+  "pointless": {
+    "input/text/stemmer/stop.txt": [
+      400
+    ]
+  },
+  "possess": {
+    "input/text/stemmer/stop.txt": [
+      51,
+      54,
+      98,
+      101,
+      117,
+      120,
+      136,
+      147,
+      150,
+      159,
+      171,
+      174
+    ]
+  },
+  "preposit": {
+    "input/text/stemmer/stop.txt": [
+      390
+    ]
+  },
+  "present": {
+    "input/text/stemmer/stop.txt": [
+      200,
+      206,
+      208
+    ]
+  },
+  "pronoun": {
+    "input/text/stemmer/stop.txt": [
+      35,
+      55,
+      102,
+      121,
+      139,
+      151,
+      175,
+      315
+    ]
+  },
+  "put": {
+    "input/text/stemmer/stop.txt": [
+      495
+    ]
+  },
+  "quit": {
+    "input/text/stemmer/stop.txt": [
+      27
+    ]
+  },
+  "rare": {
+    "input/text/stemmer/stop.txt": [
+      28
+    ]
+  },
+  "rarer": {
+    "input/text/stemmer/stop.txt": [
+      374
+    ]
+  },
+  "rd": {
+    "input/text/stemmer/stop.txt": [
+      204
+    ]
+  },
+  "record": {
+    "input/text/stemmer/stop.txt": [
+      467
+    ]
+  },
+  "reflex": {
+    "input/text/stemmer/stop.txt": [
+      68,
+      104,
+      123,
+      126,
+      141,
+      153,
+      162,
+      177
+    ]
+  },
+  "remov": {
+    "input/text/stemmer/stop.txt": [
+      89
+    ]
+  },
+  "requir": {
+    "input/text/stemmer/stop.txt": [
+      78
+    ]
+  },
+  "rest": {
+    "input/text/stemmer/stop.txt": [
+      387
+    ]
+  },
+  "s": {
+    "input/text/stemmer/stop.txt": [
+      202,
+      227,
+      238
+    ]
+  },
+  "safe": {
+    "input/text/stemmer/stop.txt": [
+      87
+    ]
+  },
+  "said": {
+    "input/text/stemmer/stop.txt": [
+      487
+    ]
+  },
+  "same": {
+    "input/text/stemmer/stop.txt": [
+      459
+    ]
+  },
+  "say": {
+    "input/text/stemmer/stop.txt": [
+      485,
+      486
+    ]
+  },
+  "second": {
+    "input/text/stemmer/stop.txt": [
+      105,
+      514
+    ]
+  },
+  "see": {
+    "input/text/stemmer/stop.txt": [
+      496
+    ]
+  },
+  "seen": {
+    "input/text/stemmer/stop.txt": [
+      497
+    ]
+  },
+  "sens": {
+    "input/text/stemmer/stop.txt": [
+      63
+    ]
+  },
+  "shall": {
+    "input/text/stemmer/stop.txt": [
+      294,
+      295
+    ]
+  },
+  "shant": {
+    "input/text/stemmer/stop.txt": [
+      356
+    ]
+  },
+  "she": {
+    "input/text/stemmer/stop.txt": [
+      142
+    ]
+  },
+  "shed": {
+    "input/text/stemmer/stop.txt": [
+      331
+    ]
+  },
+  "shell": {
+    "input/text/stemmer/stop.txt": [
+      337
+    ]
+  },
+  "shes": {
+    "input/text/stemmer/stop.txt": [
+      320
+    ]
+  },
+  "should": {
+    "input/text/stemmer/stop.txt": [
+      284,
+      296
+    ]
+  },
+  "shouldnt": {
+    "input/text/stemmer/stop.txt": [
+      357
+    ]
+  },
+  "signific": {
+    "input/text/stemmer/stop.txt": [
+      256
+    ]
+  },
+  "simpl": {
+    "input/text/stemmer/stop.txt": [
+      225,
+      236
+    ]
+  },
+  "sinc": {
+    "input/text/stemmer/stop.txt": [
+      506
+    ]
+  },
+  "sing": {
+    "input/text/stemmer/stop.txt": [
+      39
+    ]
+  },
+  "singular": {
+    "input/text/stemmer/stop.txt": [
+      124,
+      130
+    ]
+  },
+  "smell": {
+    "input/text/stemmer/stop.txt": [
+      271
+    ]
+  },
+  "so": {
+    "input/text/stemmer/stop.txt": [
+      395,
+      460
+    ]
+  },
+  "some": {
+    "input/text/stemmer/stop.txt": [
+      452
+    ]
+  },
+  "st": {
+    "input/text/stemmer/stop.txt": [
+      37,
+      69,
+      198,
+      210
+    ]
+  },
+  "start": {
+    "input/text/stemmer/stop.txt": [
+      17
+    ]
+  },
+  "state": {
+    "input/text/stemmer/stop.txt": [
+      83
+    ]
+  },
+  "still": {
+    "input/text/stemmer/stop.txt": [
+      503
+    ]
+  },
+  "stop": {
+    "input/text/stemmer/stop.txt": [
+      3,
+      12
+    ]
+  },
+  "subject": {
+    "input/text/stemmer/stop.txt": [
+      41,
+      73,
+      113,
+      132,
+      143,
+      155,
+      167
+    ]
+  },
+  "such": {
+    "input/text/stemmer/stop.txt": [
+      453
+    ]
+  },
+  "suppress": {
+    "input/text/stemmer/stop.txt": [
+      59
+    ]
+  },
+  "take": {
+    "input/text/stemmer/stop.txt": [
+      505
+    ]
+  },
+  "than": {
+    "input/text/stemmer/stop.txt": [
+      461
+    ]
+  },
+  "that": {
+    "input/text/stemmer/stop.txt": [
+      187,
+      365,
+      397
+    ]
+  },
+  "the": {
+    "input/text/stemmer/stop.txt": [
+      16,
+      23,
+      53,
+      62,
+      245,
+      255,
+      275,
+      385,
+      386,
+      466,
+      468,
+      473
+    ]
+  },
+  "their": {
+    "input/text/stemmer/stop.txt": [
+      170,
+      173
+    ]
+  },
+  "them": {
+    "input/text/stemmer/stop.txt": [
+      168
+    ]
+  },
+  "themselv": {
+    "input/text/stemmer/stop.txt": [
+      176
+    ]
+  },
+  "then": {
+    "input/text/stemmer/stop.txt": [
+      436
+    ]
+  },
+  "there": {
+    "input/text/stemmer/stop.txt": [
+      369,
+      439
+    ]
+  },
+  "these": {
+    "input/text/stemmer/stop.txt": [
+      188
+    ]
+  },
+  "they": {
+    "input/text/stemmer/stop.txt": [
+      166
+    ]
+  },
+  "theyd": {
+    "input/text/stemmer/stop.txt": [
+      333
+    ]
+  },
+  "theyll": {
+    "input/text/stemmer/stop.txt": [
+      339
+    ]
+  },
+  "theyr": {
+    "input/text/stemmer/stop.txt": [
+      323
+    ]
+  },
+  "theyv": {
+    "input/text/stemmer/stop.txt": [
+      327
+    ]
+  },
+  "thi": {
+    "input/text/stemmer/stop.txt": [
+      280
+    ]
+  },
+  "third": {
+    "input/text/stemmer/stop.txt": [
+      128,
+      163
+    ]
+  },
+  "this": {
+    "input/text/stemmer/stop.txt": [
+      186
+    ]
+  },
+  "those": {
+    "input/text/stemmer/stop.txt": [
+      189
+    ]
+  },
+  "thou": {
+    "input/text/stemmer/stop.txt": [
+      108
+    ]
+  },
+  "three": {
+    "input/text/stemmer/stop.txt": [
+      510
+    ]
+  },
+  "through": {
+    "input/text/stemmer/stop.txt": [
+      418
+    ]
+  },
+  "tin": {
+    "input/text/stemmer/stop.txt": [
+      264
+    ]
+  },
+  "to": {
+    "input/text/stemmer/stop.txt": [
+      88,
+      424
+    ]
+  },
+  "too": {
+    "input/text/stemmer/stop.txt": [
+      462
+    ]
+  },
+  "two": {
+    "input/text/stemmer/stop.txt": [
+      509
+    ]
+  },
+  "under": {
+    "input/text/stemmer/stop.txt": [
+      433
+    ]
+  },
+  "unit": {
+    "input/text/stemmer/stop.txt": [
+      82
+    ]
+  },
+  "until": {
+    "input/text/stemmer/stop.txt": [
+      407
+    ]
+  },
+  "up": {
+    "input/text/stemmer/stop.txt": [
+      426
+    ]
+  },
+  "upper": {
+    "input/text/stemmer/stop.txt": [
+      44
+    ]
+  },
+  "us": {
+    "input/text/stemmer/stop.txt": [
+      74,
+      81
+    ]
+  },
+  "use": {
+    "input/text/stemmer/stop.txt": [
+      192
+    ]
+  },
+  "usual": {
+    "input/text/stemmer/stop.txt": [
+      86
+    ]
+  },
+  "verb": {
+    "input/text/stemmer/stop.txt": [
+      190,
+      316,
+      340
+    ]
+  },
+  "veri": {
+    "input/text/stemmer/stop.txt": [
+      463
+    ]
+  },
+  "vertic": {
+    "input/text/stemmer/stop.txt": [
+      9
+    ]
+  },
+  "was": {
+    "input/text/stemmer/stop.txt": [
+      209
+    ]
+  },
+  "wasnt": {
+    "input/text/stemmer/stop.txt": [
+      344
+    ]
+  },
+  "way": {
+    "input/text/stemmer/stop.txt": [
+      504
+    ]
+  },
+  "we": {
+    "input/text/stemmer/stop.txt": [
+      72
+    ]
+  },
+  "wed": {
+    "input/text/stemmer/stop.txt": [
+      332
+    ]
+  },
+  "well": {
+    "input/text/stemmer/stop.txt": [
+      338,
+      500
+    ]
+  },
+  "were": {
+    "input/text/stemmer/stop.txt": [
+      213,
+      322
+    ]
+  },
+  "werent": {
+    "input/text/stemmer/stop.txt": [
+      345
+    ]
+  },
+  "weve": {
+    "input/text/stemmer/stop.txt": [
+      326
+    ]
+  },
+  "what": {
+    "input/text/stemmer/stop.txt": [
+      182,
+      367
+    ]
+  },
+  "when": {
+    "input/text/stemmer/stop.txt": [
+      370,
+      440
+    ]
+  },
+  "where": {
+    "input/text/stemmer/stop.txt": [
+      371,
+      441
+    ]
+  },
+  "whether": {
+    "input/text/stemmer/stop.txt": [
+      498
+    ]
+  },
+  "whi": {
+    "input/text/stemmer/stop.txt": [
+      442
+    ]
+  },
+  "which": {
+    "input/text/stemmer/stop.txt": [
+      183
+    ]
+  },
+  "while": {
+    "input/text/stemmer/stop.txt": [
+      408
+    ]
+  },
+  "who": {
+    "input/text/stemmer/stop.txt": [
+      184
+    ]
+  },
+  "whom": {
+    "input/text/stemmer/stop.txt": [
+      185
+    ]
+  },
+  "whos": {
+    "input/text/stemmer/stop.txt": [
+      366
+    ]
+  },
+  "whys": {
+    "input/text/stemmer/stop.txt": [
+      372
+    ]
+  },
+  "will": {
+    "input/text/stemmer/stop.txt": [
+      262,
+      291,
+      292
+    ]
+  },
+  "with": {
+    "input/text/stemmer/stop.txt": [
+      8,
+      278,
+      413
+    ]
+  },
+  "wont": {
+    "input/text/stemmer/stop.txt": [
+      354
+    ]
+  },
+  "word": {
+    "input/text/stemmer/stop.txt": [
+      4,
+      13,
+      470
+    ]
+  },
+  "would": {
+    "input/text/stemmer/stop.txt": [
+      282,
+      293
+    ]
+  },
+  "wouldnt": {
+    "input/text/stemmer/stop.txt": [
+      355
+    ]
+  },
+  "write": {
+    "input/text/stemmer/stop.txt": [
+      314
+    ]
+  },
+  "you": {
+    "input/text/stemmer/stop.txt": [
+      112
+    ]
+  },
+  "youd": {
+    "input/text/stemmer/stop.txt": [
+      329
+    ]
+  },
+  "youll": {
+    "input/text/stemmer/stop.txt": [
+      335
+    ]
+  },
+  "your": {
+    "input/text/stemmer/stop.txt": [
+      116,
+      119,
+      318
+    ]
+  },
+  "yourself": {
+    "input/text/stemmer/stop.txt": [
+      122
+    ]
+  },
+  "yourselv": {
+    "input/text/stemmer/stop.txt": [
+      30,
+      125
+    ]
+  },
+  "youv": {
+    "input/text/stemmer/stop.txt": [
+      325
+    ]
+  }
+}

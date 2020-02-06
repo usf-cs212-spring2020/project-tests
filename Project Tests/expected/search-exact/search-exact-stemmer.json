@@ -1,0 +1,169 @@
+{
+  "a i": [
+    {
+      "where": "input/text/stemmer/stop.txt",
+      "count": 6,
+      "score": 0.01158301
+    },
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 6,
+      "score": 0.00020398
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 6,
+      "score": 0.00020398
+    }
+  ],
+  "abcdefghijklmnopqrstuvwxyz": [
+  ],
+  "ah am an as at": [
+    {
+      "where": "input/text/stemmer/stop.txt",
+      "count": 6,
+      "score": 0.01158301
+    },
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 7,
+      "score": 0.00023798
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 7,
+      "score": 0.00023798
+    }
+  ],
+  "be by": [
+    {
+      "where": "input/text/stemmer/stop.txt",
+      "count": 5,
+      "score": 0.00965251
+    },
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 4,
+      "score": 0.00013599
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 4,
+      "score": 0.00013599
+    }
+  ],
+  "do go no so to": [
+    {
+      "where": "input/text/stemmer/stop.txt",
+      "count": 9,
+      "score": 0.01737452
+    },
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 9,
+      "score": 0.00030598
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 9,
+      "score": 0.00030598
+    }
+  ],
+  "hi": [
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 1,
+      "score": 0.00003400
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 1,
+      "score": 0.00003400
+    }
+  ],
+  "if is it": [
+    {
+      "where": "input/text/stemmer/stop.txt",
+      "count": 16,
+      "score": 0.03088803
+    },
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 4,
+      "score": 0.00013599
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 4,
+      "score": 0.00013599
+    }
+  ],
+  "me my": [
+    {
+      "where": "input/text/stemmer/stop.txt",
+      "count": 2,
+      "score": 0.00386100
+    },
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 2,
+      "score": 0.00006799
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 2,
+      "score": 0.00006799
+    }
+  ],
+  "of on or": [
+    {
+      "where": "input/text/stemmer/stop.txt",
+      "count": 11,
+      "score": 0.02123552
+    },
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 5,
+      "score": 0.00016999
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 4,
+      "score": 0.00013599
+    }
+  ],
+  "us": [
+    {
+      "where": "input/text/stemmer/stop.txt",
+      "count": 2,
+      "score": 0.00386100
+    },
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 1,
+      "score": 0.00003400
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 1,
+      "score": 0.00003400
+    }
+  ],
+  "we": [
+    {
+      "where": "input/text/stemmer/stop.txt",
+      "count": 1,
+      "score": 0.00193050
+    },
+    {
+      "where": "input/text/stemmer/output.txt",
+      "count": 1,
+      "score": 0.00003400
+    },
+    {
+      "where": "input/text/stemmer/voc.txt",
+      "count": 1,
+      "score": 0.00003400
+    }
+  ]
+}
