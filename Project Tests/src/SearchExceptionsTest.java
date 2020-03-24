@@ -25,7 +25,7 @@ public class SearchExceptionsTest {
   public void testMissingQueryPath() {
     String path = TestUtilities.TEXT_INPUT.resolve("simple").resolve("hello.txt").toString();
     String[] args = {"-path", path, "-query"};
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
   }
 
   /**
@@ -37,7 +37,7 @@ public class SearchExceptionsTest {
     String path = TestUtilities.TEXT_INPUT.resolve("simple").resolve("hello.txt").toString();
     String query = Long.toHexString(Double.doubleToLongBits(Math.random()));
     String[] args = {"-path", path, "-query", query};
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
   }
 
   /**
@@ -49,7 +49,7 @@ public class SearchExceptionsTest {
     String path = TestUtilities.TEXT_INPUT.resolve("simple").resolve("hello.txt").toString();
     String query = Long.toHexString(Double.doubleToLongBits(Math.random()));
     String[] args = {"-path", path, "-query", query, "-exact"};
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
   }
 
   /**
@@ -70,7 +70,7 @@ public class SearchExceptionsTest {
     Files.deleteIfExists(index);
     Files.deleteIfExists(results);
 
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
 
     // make sure a new index.json and results.json were not created
     Assertions.assertFalse(Files.exists(index) || Files.exists(results));
@@ -94,7 +94,7 @@ public class SearchExceptionsTest {
     Files.deleteIfExists(index);
     Files.deleteIfExists(results);
 
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
 
     // make sure a new results.json was not created (but index.json was not)
     Assertions.assertTrue(Files.exists(results) && !Files.exists(index));
@@ -117,7 +117,7 @@ public class SearchExceptionsTest {
     Files.deleteIfExists(index);
     Files.deleteIfExists(results);
 
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
 
     // make sure a new results.json was not created (but index.json was not)
     Assertions.assertTrue(Files.exists(results) && !Files.exists(index));
@@ -139,7 +139,7 @@ public class SearchExceptionsTest {
     Files.deleteIfExists(index);
     Files.deleteIfExists(results);
 
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
 
     // make sure a new results.json was not created (but index.json was not)
     Assertions.assertTrue(Files.exists(results) && !Files.exists(index));
@@ -163,7 +163,7 @@ public class SearchExceptionsTest {
     Files.deleteIfExists(index);
     Files.deleteIfExists(results);
 
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
 
     // make sure a new results.json was not created (but index.json was not)
     Assertions.assertTrue(Files.exists(results) && !Files.exists(index));

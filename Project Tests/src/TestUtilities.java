@@ -216,10 +216,48 @@ public class TestUtilities {
    *
    * @param args arguments to pass to {@link Driver}
    */
-  public static void testNoExceptions(String[] args) {
-    Assertions.assertTimeoutPreemptively(TIMEOUT, () -> {
+  public static void testExceptionTimeout(String[] args) {
+    testExceptionTimeout(args, TIMEOUT);
+  }
+
+  /**
+   * Tests whether {@link Driver} runs without generating any exceptions and ends within the
+   * provided timeout. Designed to be used within an unit test.
+   *
+   * @param args arguments to pass to {@link Driver}
+   * @param timeout the timeout to use
+   */
+  public static void testExceptionTimeout(String[] args, Duration timeout) {
+    Assertions.assertTimeoutPreemptively(timeout, () -> {
       checkExceptions(args);
     });
+  }
+
+  /**
+   * Tests whether {@link Driver} runs without generating any exceptions, produces the expected
+   * output, and ends within the provided timeout. Designed to be used within an unit test.
+   *
+   * @param args arguments to pass to {@link Driver}
+   * @param actual path to actual output
+   * @param expected path to expected output
+   */
+  public static void testOutputTimeout(String[] args, Path actual, Path expected) {
+    testOutputTimeout(args, actual, expected, TIMEOUT);
+  }
+
+  /**
+   * Tests whether {@link Driver} runs without generating any exceptions, produces the expected
+   * output, and ends within the provided timeout. Designed to be used within an unit test.
+   *
+   * @param args arguments to pass to {@link Driver}
+   * @param actual path to actual output
+   * @param expected path to expected output
+   * @param timeout the timeout to use
+   */
+  public static void testOutputTimeout(String[] args, Path actual, Path expected, Duration timeout) {
+    Assertions.assertTimeoutPreemptively(timeout, () ->
+        TestUtilities.checkOutput(args, actual, expected)
+    );
   }
 
   /**
