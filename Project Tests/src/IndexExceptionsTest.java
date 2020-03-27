@@ -24,7 +24,7 @@ public class IndexExceptionsTest {
   @Test
   public void testNoArguments() {
     String[] args = {};
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
   }
 
   /**
@@ -34,7 +34,7 @@ public class IndexExceptionsTest {
   @Test
   public void testBadArguments() {
     String[] args = {"hello", "world"};
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
   }
 
   /**
@@ -44,7 +44,7 @@ public class IndexExceptionsTest {
   @Test
   public void testMissingPath() {
     String[] args = {"-path"};
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
   }
 
   /**
@@ -56,7 +56,7 @@ public class IndexExceptionsTest {
     // generates a random path name
     String path = Long.toHexString(Double.doubleToLongBits(Math.random()));
     String[] args = {"-path", path};
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
   }
 
   /**
@@ -74,7 +74,7 @@ public class IndexExceptionsTest {
     Path output = Path.of("index.json");
     Files.deleteIfExists(output);
 
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
 
     // make sure a new index.json was not created
     Assertions.assertFalse(Files.exists(output));
@@ -95,7 +95,7 @@ public class IndexExceptionsTest {
     Path output = Path.of("index.json");
     Files.deleteIfExists(output);
 
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
 
     // make sure a new index.json was created
     Assertions.assertTrue(Files.exists(output));
@@ -115,7 +115,7 @@ public class IndexExceptionsTest {
     Path output = Path.of("index.json");
     Files.deleteIfExists(output);
 
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
 
     // make sure a new index.json was created
     Assertions.assertTrue(Files.exists(output));
@@ -136,7 +136,7 @@ public class IndexExceptionsTest {
     Path output = Path.of("index.json");
     Files.deleteIfExists(output);
 
-    TestUtilities.testNoExceptions(args);
+    TestUtilities.testExceptionTimeout(args);
 
     // make sure a new index.json was created
     Assertions.assertTrue(Files.exists(output));
