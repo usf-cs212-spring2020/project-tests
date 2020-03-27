@@ -6,4 +6,4 @@ Everyone will use the same test repository, which may be updated over time by th
 
 For more details, see the project guides at:
 
-<https://usf-cs212-2020.github.io/guides/>
+<https://usf-cs212-spring2020.github.io/guides/>
