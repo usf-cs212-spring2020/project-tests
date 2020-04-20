@@ -126,7 +126,7 @@ public class Project4Test {
   @Nested
   public class F_ThreadRuntime extends ThreadRuntimeTest {
 
-    // Disable all but two of the runtime tests
+    // Disable all but one of the runtime tests
 
     @Disabled
     @Override
@@ -137,6 +137,12 @@ public class Project4Test {
     @Disabled
     @Override
     public void testSearchConsistency() {
+
+    }
+
+    @Disabled
+    @Override
+    public void testIndexMultithreaded() {
 
     }
 
@@ -157,6 +163,7 @@ public class Project4Test {
   /**
    * Include the web crawler output (and runtime) tests.
    */
+  @Nested
   public class G_CrawlOutput extends CrawlOutputTest {
 
   }
