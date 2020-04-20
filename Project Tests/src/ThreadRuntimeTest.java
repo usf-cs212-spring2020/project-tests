@@ -29,22 +29,22 @@ import org.junit.jupiter.api.TestMethodOrder;
 public class ThreadRuntimeTest {
 
   /** The number of warmup runs when benchmarking. */
-  private static final int WARM_RUNS = 4;
+  public static final int WARM_RUNS = 4;
 
   /** The number of timed runs when benchmarking. */
-  private static final int TIME_RUNS = 6;
+  public static final int TIME_RUNS = 6;
 
   /** The default number of threads to use when benchmarking. */
-  private static final int THREADS = 3;
+  public static final int THREADS = 3;
 
   /** The timeout per run. If code timesout, it is likely not ready for benchmarking. */
-  private static final Duration TIMEOUT = Duration.ofMinutes(1);
+  public static final Duration TIMEOUT = Duration.ofMinutes(1);
 
   /** The timeout for long runs (involving multiple runs of Driver). */
-  private static final Duration LONG_TIMEOUT = Duration.ofMinutes(5);
+  public static final Duration LONG_TIMEOUT = Duration.ofMinutes(5);
 
   /** The format string used to report speedup. */
-  private static final String SPEEDUP_FORMAT = "%s is %.2f seconds faster than %d workers.";
+  public static final String SPEEDUP_FORMAT = "%s is %.2f seconds faster than %d workers.";
 
   /**
    * Tests that the inverted index output remains consistent when repeated.
